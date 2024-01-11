@@ -1,0 +1,5 @@
+(library
+ (name types)
+ (libraries core core_kernel.uuid)
+ (preprocess
+  (pps ppx_jane)))

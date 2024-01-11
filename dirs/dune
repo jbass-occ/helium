@@ -1,0 +1,5 @@
+(library
+ (name dirs)
+ (libraries core core_unix directories)
+ (preprocess
+  (pps ppx_jane)))

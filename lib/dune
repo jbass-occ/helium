@@ -1,5 +1,5 @@
 (library
  (name helium)
- (libraries async core)
+ (libraries async async_kernel core dirs types)
  (preprocess
   (pps ppx_jane)))
