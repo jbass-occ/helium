@@ -1,4 +1,6 @@
 (executable
  (public_name helium)
  (name main)
- (libraries helium))
+ (libraries async core core_unix.command_unix helium)
+ (preprocess
+  (pps ppx_jane)))

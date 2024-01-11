@@ -1,2 +1,5 @@
 (library
- (name helium))
+ (name helium)
+ (libraries async core)
+ (preprocess
+  (pps ppx_jane)))
